@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="MUZIK"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Music_app"
+        tools:targetApi="31">
+        <activity
+            android:name=".Instrument.Kruthiv"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Varnav"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Swarajathiv"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Jathiswarav"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Lakshanageethe"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Geethev"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Alankarav"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Hechustyavarasev"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Tagustyavarasev"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Daatuvarasev"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Jantivarasev"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.Saralevarasev"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.MrudangaHome"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.ViolinHome"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Instrument.VeenaHome"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Vilambakaala_kruthi"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Madhyamakaala_kruthi"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Varna"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Swarajathi"
+            android:exported="false" />
+
+        <activity
+            android:name=".Vocal.Alankara"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.LakshanaGeethe"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.SanchariGeethe"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.PillariGeete"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Jantivarase"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Saaralevarase"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Daatuvarase"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Tagusthayevarase"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.Hechustaye"
+            android:exported="false" />
+        <activity
+            android:name=".Vocal.VocalHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Instrument.InstrumentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+
+        </activity>
+    </application>
+
+</manifest>
